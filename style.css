@@ -1,0 +1,48 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    padding: 30px;
+    color: #fff;
+}
+
+/* Each audio section */
+header {
+    margin-bottom: 6px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Audio container */
+main {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Audio player */
+audio {
+    width: 100%;
+    outline: none;
+}
+
+/* Hover effect */
+main:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
